@@ -5,20 +5,20 @@ nav {
 }
 
 nav a {
-  color: steelblue;
+  color: black;
   padding: 10px;
   display: block;
 }
 
 h1 {
-  color: royalblue;
+  color: navy;
 }
 
 main img {
     width: 150px;
     height: auto;
     border: 1px solid; color: steelblue;
-    padding: 2px;
+    padding: 6px;
     box-shadow: 0 0 10px gray;
 
   }
