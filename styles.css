@@ -1,7 +1,32 @@
-main {
-    max-width: 840px;
+nav {
+  background-color: #eee;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+nav a {
+  color: steelblue;
+  padding: 10px;
+  display: block;
+}
+
+h1 {
+  color: royalblue;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid; color: steelblue;
+    padding: 2px;
+    box-shadow: 0 0 10px gray;
+
   }
-  
+
+  p {
+    padding: 0;
+  }
+
   aside {
     width: 20rem;
     margin: 1rem;
@@ -20,7 +45,6 @@ main {
   main img {
     width: 150px;
     height: auto;
-    /* Add any existing styles for the main img selector */
   }
   
   p {
