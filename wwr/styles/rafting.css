@@ -70,7 +70,7 @@ header img {
   background-color: var(--nav-hover-background-color);
 }
 
-/* Body */
+/* BANNER */
 
 .hero {
   position: relative;
@@ -118,6 +118,7 @@ header img {
 .history {
   display: grid;
   margin-top: 2rem;
+  padding: 2rem;
   background-color:rgba(0, 0, 0, 0.4);
   grid-template-columns: repeat(3, 1fr);
 }
