@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=your-heading-font&family=your-paragraph-font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
 
 :root {
   --primary-color: #091729;
@@ -6,8 +6,8 @@
   --accent1-color: #000000;
   --accent2-color: #ffffff;
 
-  --heading-font: 'your-heading-font', serif;
-  --paragraph-font: 'your-paragraph-font', sans-serif;
+  --heading-font: 'Poppins', sans-serif;
+  --paragraph-font: 'Open Sans', sans-serif;
 
   --nav-background-color: #091729;
   --nav-link-color: #eee;
