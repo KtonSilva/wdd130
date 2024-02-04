@@ -76,8 +76,9 @@ aside img {
 
 aside h2 {
   color: #eee;
-  position: relative;
-  top: 115px;
+  position: absolute;
+  top: 100px;
+  left: 125px;
 }
 
 footer {
