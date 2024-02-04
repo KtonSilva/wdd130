@@ -1,10 +1,17 @@
-/* Class Selectors */
-.box {
-  margin: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1rem;
-  background-color: #ddd;
-  color: #000;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, .grid, footer{
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
 }
 
 nav {
@@ -33,11 +40,6 @@ h1 {
   padding: 0.5rem;
   color: navy;
   border-bottom: 1px solid #000;
-}
-
-.grid {
-  display: grid;
-  align-items: center;
 }
 
 main {
@@ -86,10 +88,12 @@ footer {
   margin: 0 auto;
 }
 
-body::after {
-  content: "Last modified: 2024-01-25";
-  display: block;
-  text-align: center;
-  margin-top: 10px;
-  color: #888;
+/* Class Selectors */
+
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
 }
