@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=your-heading-font&family=your-paragraph-font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
 
 :root {
   --primary-color: #091729;
   --secondary-color: #1F535F;
-  --accent1-color: #eee;
-  --accent2-color: #2699BD;
+  --accent1-color: #EEE;
+  --accent2-color: #2699BD;;
 
-  --heading-font: 'your-heading-font', serif;
-  --paragraph-font: 'your-paragraph-font', sans-serif;
+  --heading-font: 'Poppins', sans-serif;
+  --paragraph-font: 'Open Sans', sans-serif;
 
   --nav-background-color: #091729;
-  --nav-link-color: #FDFDFD;
-  --nav-hover-link-color: #2699BD;
-  --nav-hover-background-color: #1F535F;
+  --nav-link-color: #eee;
+  --nav-hover-link-color: #1F535F;
+  --nav-hover-background-color: #eee;
 }
 
 body {
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   padding: 20px;
-  background-color: var(--accent1-color);
+  background-color: var(--accent2-color);
 }
 
 p {
