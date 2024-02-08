@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quiz about CSS and HTML">
+    <meta name="author" content="Kleyton L Silva">
+    <link rel="stylesheet" href="quiz.css">
+    <title>HTML and CSS Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>HTML and CSS Quiz</h1>
+    </header>
+    <main>
+    <form action="#" method="post" id="quizForm">
+        <!-- Question 1: Fill in the blank -->
+        <label for="q1">1. Fill in the blank: HTML stands for HyperText Markup __________.</label>
+        <input type="text" id="q1" name="q1" required>
+
+        <!-- Question 2: Short answer -->
+        <label for="q2">2. Briefly explain the purpose of CSS:</label>
+        <textarea id="q2" name="q2" rows="4" required></textarea>
+
+        <!-- Question 3: Dropdown -->
+        <label for="q3">3. What does CSS stand for?</label>
+        <select id="q3" name="q3" required>
+            <option value="" selected disabled>Choose One...</option>
+            <option value="cascading-style-sheets">Cascading Style Sheets</option>
+            <option value="central-style-system">Central Style System</option>
+            <option value="cool-surfing-styles">Cool Surfing Styles</option>
+        </select>
+
+        <!-- Question 4: Integer answer -->
+        <label for="q4">4. How many heading levels are there in HTML?</label>
+        <input type="number" id="q4" name="q4" required>
+
+        <!-- Submit button -->
+        <button type="submit">Submit Quiz</button>
+    </form>
+    </main>
+    <footer>
+        <p>©️2024 | HTML and CSS Quiz | Kleyton L Silva</p>
+    </footer> 
+</body>
+</html>
