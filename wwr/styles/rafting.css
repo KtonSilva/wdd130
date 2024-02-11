@@ -184,11 +184,6 @@ header img {
   padding: 2rem;
 }
 
-form {
-  display: grid;
-  padding: 0.5rem;
-}
-
 label {
   font-weight: bold;
   margin-bottom: 5px;
