@@ -162,7 +162,75 @@ header img {
   text-align: center;
 }
 
-/* FOOTER */
+/* CONTACT*/
+
+.row {
+  display: grid;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color:rgba(0, 0, 0, 0.4);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.company-info {
+  padding: 2rem;
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+form {
+  display: grid;
+  padding: 0.5rem;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="checkbox"] {
+  margin-top:5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* EMPLOYEE */
+
+.employee-profiles {
+  display: grid;
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* FOOTER */ 
 
 footer {
   display: grid;
